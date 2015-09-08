@@ -2,7 +2,19 @@
     font-family: 'Poiret One', cursive;
 }
 
+ul {
+ font-family: 'Josefin Sans', sans-serif;   
+}
 
+li {
+    
+ color: #F0C986;   
+}
+
+li span{
+ 
+    color: #000;
+}
 
 /* NAV BAR */
 /*
@@ -661,7 +673,7 @@ color:#BDBEC0;
 .heading h1{
      font-family: 'Josefin Sans', sans-serif;
     font-size: 55px; 
-    
+    padding-top: 90px;
 }
 
 
@@ -945,6 +957,10 @@ object-position: center;
 
 
 /* Project 2*/
+
+.project2 .container {
+ width: 80%;   
+}
 
 .pro2-img .img-responsive {
  padding: 10px;  

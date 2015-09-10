@@ -540,7 +540,7 @@ section.success{
 @media screen and (min-width:1170px) {
     
    
-     .about-pro p{
+     .about-pro p {
         padding-left:0px;
     }
     
@@ -748,7 +748,8 @@ color:#BDBEC0;
 
   object-position: center;
 
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
 
@@ -1084,7 +1085,13 @@ text-align: center;
 }
 
 
-
+.pro3-img .col-xs-6 {
+    
+    padding: 5px;
+    
+}
+    
+    
 
 
 

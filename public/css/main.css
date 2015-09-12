@@ -221,15 +221,6 @@ li span{
     position: center;
     object-position: center;
 }
-
-
-.thumbnail {
-    position:relative;
-    overflow:hidden;
-    border: 0 none;
-    box-shadow: none;
-    background: rgba(150, 145, 150, 0.00);
-}
  
 .caption {
     position:absolute;
@@ -238,6 +229,7 @@ li span{
     background:rgba(150, 145, 150, 0.75);
     width:100%;
     height:100%;
+    padding:2%;
     text-align:center;
     color:#fff !important;
     z-index:2;
@@ -246,9 +238,38 @@ li span{
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    font-size: 20px;
 }
+
+.caption h4 {
+ font-size: 32px;   
+}
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    border: 0 none;
+    box-shadow: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: rgba(150, 145, 150, 0.00);
+}
+
 .thumbnail:hover .caption {
     top:0%;
+}
+
+.thumbnail .caption{
+    padding: 90px; !important!
+    background: rgba(150, 145, 150, 0.00);
+}
+
+.thumbnail a {
+    color: #fff;
 }
 
 .content-wrapper{
@@ -605,71 +626,6 @@ padding-left: 0px;
  margin: 0px; 
 
 }
-
-
-
-
-.thumbnail {
-    position:relative;
-    overflow:hidden;
-    border: 0 none;
-    box-shadow: none;
-    
-        padding-bottom: 0px;
-    margin-bottom: 0px;
-    
-    
-    
-
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-    
-    background: rgba(150, 145, 150, 0.00);
-}
- 
-.caption {
-    position:absolute;
-    top:-100%;
-    right:0;
-    background:rgba(150, 145, 150, 0.75);
-    width:100%;
-    height:100%;
-    padding:2%;
-    text-align:center;
-    color:#fff !important;
-    z-index:2;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    
-     font-size: 20px;
-}
-.thumbnail:hover .caption {
-    top:0%;
-}
-    
-
-.thumbnail .caption{
-    padding: 90px; !important!
-    
-    background: rgba(150, 145, 150, 0.00);
-}
-
-
-.thumbnail a {
-    color: #fff;
-}
-
-.caption h4 {
- font-size: 32px;   
-}
-
-
 
 
 

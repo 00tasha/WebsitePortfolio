@@ -731,6 +731,14 @@ color:#BDBEC0;
     padding-top: 90px;
 }
 
+.heading h2{
+         font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px; 
+    padding-top: 10px;
+    color: #BDBEC0 
+    
+}
+
 
 .projects {
     

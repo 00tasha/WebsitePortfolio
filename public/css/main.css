@@ -142,6 +142,7 @@ li span{
     display: inline-block;
     width: 200px;
     padding: 8px;
+
     color: #fff;
     border: 2px solid #fff;
     text-align: center;
@@ -150,6 +151,7 @@ li span{
     font-family: 'Josefin Sans', sans-serif;
     transition: background-color 0.2s ease-out,
                 border-color 0.2s ease-out;
+    margin-bottom: 20px;
 }
 
 .ghost-button:hover,
@@ -173,6 +175,7 @@ li span{
   padding: 20px 20px;
   text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
+
    
 }
 
@@ -630,6 +633,110 @@ padding-left: 0px;
 
 
 
+<<<<<<< HEAD
+=======
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    border: 0 none;
+    box-shadow: none;
+    
+        padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+    
+    
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    
+    background: rgba(150, 145, 150, 0.00);
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(150, 145, 150, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+     font-size: 20px;
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
+    
+
+.thumbnail .caption{
+    padding: 90px; !important!
+    
+    background: rgba(150, 145, 150, 0.00);
+}
+
+
+.thumbnail a {
+    color: #fff;
+}
+
+.caption h4 {
+ font-size: 32px;   
+}
+
+
+
+/* Contact Page */
+
+
+.images-responsive {
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-1 {
+  align-content: center;
+    background-color: #F0C986;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+    padding-bottom: 10%;
+    padding-top: 10%;    
+    
+ 
+}
+
+.box-2 {
+  align-content: center;
+    background-color: #B1DCD2;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+    padding-bottom: 10%;
+    padding-top: 10%;    
+    
+}
+
+>>>>>>> origin/master
 
 
 /*Resume page*/
@@ -870,11 +977,43 @@ text-align: center;
 
 
 
+/* Project 4 */
+
+.pro4-img p {
+ margin-left: 40px;
+ margin-right: 40px; 
+text-align: center;
+    
+
+
+}
 
 
 
 
+.pro4-img .img-responsive {
+ margin-right: 0px; !important!
+    
+    justify-content: center;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+    
+    padding: 10px;
+}
+
+
+
+.pro4-img h2 {
+
+    text-align: center;
+    color: #F0C986;
+    font-size: 30px;
+    font-family: 'Didact',  sans-serif;
+
+}
 
 /*
 header {
@@ -1016,7 +1155,7 @@ section.success{
     }
 
     .intro {
-        text-shadow: 0px 0px 15px #ff737c;
+       text-shadow: 0px 0px 15px #000 ;
         height: 90%;
         padding: 0;
         background-color: #FFF;
@@ -1032,10 +1171,22 @@ section.success{
 
     .intro-text {
         padding: 0px;
-        color: #fff;
+        color: #B1DCD2 ;
         font-size: 48px;  
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
+       
+
+    font-family: 'Josefin Sans', sans-serif; 
+
+
+    }
+    
+    
+    .homeText {
+        align-content: center;
+        justify-content: center;
+
+    background-color: rgba(0,0,0, 0.6);
+
     }
     .desktop {
         background:url('../images/desktop7.jpg') no-repeat center ;
@@ -1162,6 +1313,20 @@ section.success{
     .about-pro p{
         padding-left:30px;
     }
+    
+    .redesign-p {
+     margin-top: 35%   
+    }
+
+
+
+    .intro-text {
+        padding-top: 20px;
+        margin-top: -15%;
+
+    }
+
+
 }
 
 

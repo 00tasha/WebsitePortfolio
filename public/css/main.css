@@ -55,8 +55,6 @@ li span{
 
 
 
-
-
 .intro-text {
     padding-top: 15%;
     padding-bottom: 15%;
@@ -1121,11 +1119,17 @@ section.success{
     }
 
 */
+   
+   
+.negativeMarginBig {
+    margin-left:-72px;
+}
+
+.negativeMarginSmall {
+    margin-left:-70px;
+}
+ 
     
-  
-
-
-
 @media screen and (min-width:350px) {
     .navbar-nav {
         letter-spacing: 1px;
@@ -1133,12 +1137,44 @@ section.success{
     .navbar a {
         padding: 10px;
     } 
-    
-
-    
+}
+  
+@media screen and (min-width:360px) {
+        .negativeMarginSmall {
+        margin-left:-56px;
+    }
+        .negativeMarginBig {
+        margin-left:-58px;
+    }
+}
+  
+@media screen and (min-width:375px) {
+        .negativeMarginSmall {
+        margin-left:-50px;
+    }
+        .negativeMarginBig {
+        margin-left:-55px;
+    }
+}
+  
+@media screen and (min-width:414px) {
+    .negativeMarginSmall {
+        margin-left:-35px;
+    }
+        .negativeMarginBig {
+        margin-left:-37px;
+    }
 }
 
+
 @media screen and (min-width:768px) {
+    .negativeMarginSmall {
+        margin-left:auto;
+    }
+        .negativeMarginBig {
+        margin-left:auto;
+    }
+
        .navbar-nav {
         float: none;
         table-layout: fixed;
@@ -1316,6 +1352,11 @@ section.success{
     
     .redesign-p {
      margin-top: 35%   
+    }
+    
+    .redesign-p p {
+        padding-left:0px;
+        padding-right:30px;
     }
 
 

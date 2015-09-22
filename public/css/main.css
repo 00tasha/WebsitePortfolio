@@ -1145,15 +1145,7 @@ section.success{
     }
         .negativeMarginBig {
         margin-left:auto;
-    }
-        
-    .inVisionFrameBig {
-        width:360px;
-    }
-     
-    .inVisionFrameSmall {
-        width:350px;
-    }  
+    } 
 
        .navbar-nav {
         float: none;

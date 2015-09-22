@@ -3,7 +3,52 @@
 <html lang="en">
  
 <% include header %>
-<body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top">  
+<body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top">
+ 
+ <script>
+ $(document).ready(function() {
+
+	
+	$("a.bioImg").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+	$("a.sketchImg").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+
+	$("a.compImg").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+	$("a.wireImg").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+
+	$("a.prodImg").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});	
+});</script>
 
  <% include nav %>    
     
@@ -126,10 +171,10 @@ Our users were broken down into current players, prospective players, and visito
         <div class="row">
                 <div class="pro1-img">
                      <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/CurrentBio.gif">
+            <a class="bioImg" rel="group1" href="images/UCSD/CurrentBio.gif"><img class="img-responsive" src="images/UCSD/CurrentBio.gif"></a>
                     </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/FanBio.gif">
+            <a class="bioImg" rel="group1" href="images/UCSD/FanBio.gif"><img class="img-responsive" src="images/UCSD/FanBio.gif"></a>
                     </div>
                  
             </div>
@@ -140,7 +185,8 @@ Our users were broken down into current players, prospective players, and visito
                     <div class="col-xs-0 col-sm-3 col-md-3">
                     </div>
                  <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/ProspectiveBio.gif">
+            <a class="bioImg" rel="group1" href="images/UCSD/ProspectiveBio.gif"><img class="img-responsive" src="images/UCSD/ProspectiveBio.gif"></a>
+
                 </div>
                     <div class="col-xs-0 col-sm-3 col-md-3">
                     </div>
@@ -183,19 +229,19 @@ Our users were broken down into current players, prospective players, and visito
         <div class="row">
                 <div class="pro2-img">
                 <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/homeSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/homeSketch.jpg"><img class="img-responsive" src="images/UCSD/homeSketch.jpg"></a>
                     </div>
                     
              <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/aboutSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/aboutSketch.jpg"><img class="img-responsive" src="images/UCSD/aboutSketch.jpg"></a>
                 </div>
                   
             <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/contactSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/contactSketch.jpg"><img class="img-responsive" src="images/UCSD/contactSketch.jpg"></a>
                     </div>
                     
              <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/directionsSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/directionsSketch.jpg"><img class="img-responsive" src="images/UCSD/directionsSketch.jpg"></a>
                 </div>   
                
                 
@@ -203,19 +249,19 @@ Our users were broken down into current players, prospective players, and visito
             
             
              <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/videoSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/videoSketch.jpg"><img class="img-responsive" src="images/UCSD/videoSketch.jpg"></a>
                 </div>  
              <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/resultsSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/resultsSketch.jpg"><img class="img-responsive" src="images/UCSD/resultsSketch.jpg"></a>
                 </div>  
             
  <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/rosterSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/rosterSketch.jpg"><img class="img-responsive" src="images/UCSD/rosterSketch.jpg"></a>
                 </div>  
   
             
              <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive" src="images/UCSD/scheduleSketch.jpg">
+             <a class="sketchImg" rel="group1" href="images/UCSD/scheduleSketch.jpg"><img class="img-responsive" src="images/UCSD/scheduleSketch.jpg"></a>
                 </div>  
        
             </div>
@@ -267,22 +313,22 @@ Below are some of the sites we went through and things we really liked and wante
               <div class="row">
                 <div class="pro2-img">
                 <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/brand.jpg">
+             <a class="compImg" rel="group1" href="images/UCSD/brand.jpg"><img class="img-responsive" src="images/UCSD/brand.jpg"></a>
                     </div>
              <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/content.jpg">
+             <a class="compImg" rel="group1" href="images/UCSD/content.jpg"><img class="img-responsive" src="images/UCSD/content.jpg"></a>
                 </div>
                  <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/design.jpg">
+             <a class="compImg" rel="group1" href="images/UCSD/design.jpg"><img class="img-responsive" src="images/UCSD/design.jpg"></a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/functionality.jpg">
+             <a class="compImg" rel="group1" href="images/UCSD/functionality.jpg"><img class="img-responsive" src="images/UCSD/functionality.jpg"></a>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/sitearchitect.jpg">
+             <a class="compImg" rel="group1" href="images/UCSD/sitearchitect.jpg"><img class="img-responsive" src="images/UCSD/sitearchitect.jpg"></a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
-            <img class="img-responsive" src="images/UCSD/moodboard.jpg">
+             <a class="compImg" rel="group1" href="images/UCSD/moodboard.jpg"><img class="img-responsive" src="images/UCSD/moodboard.jpg"></a>
                 </div>
                 </div>
                 </div>
@@ -320,48 +366,47 @@ Below are some of the sites we went through and things we really liked and wante
                 <div class="pro3-img">
             
                 <div class="col-xs-6 col-sm-4 col-md-4">
-              
-            <img class="img-responsive" src="images/UCSD/wireframe/home.png">
-                    </div>
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/home.png"><img class="img-responsive" src="images/UCSD/wireframe/home.png"></a>
+                 </div>
                   
                  <div class="col-xs-6 col-sm-4 col-md-4">
                     
-             <img class="img-responsive" src="images/UCSD/wireframe/about.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/about.png"><img class="img-responsive" src="images/UCSD/wireframe/about.png"></a>
                 </div>
                     
                     
                     <div class="col-xs-6 col-sm-4 col-md-4">
               
-            <img class="img-responsive" src="images/UCSD/wireframe/contact.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/contact.png"><img class="img-responsive" src="images/UCSD/wireframe/contact.png"></a>
                     </div>
                   
                  <div class="col-xs-6 col-sm-4 col-md-4">
                     
-             <img class="img-responsive" src="images/UCSD/wireframe/directions.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/directions.png"><img class="img-responsive" src="images/UCSD/wireframe/directions.png"></a>
                 </div>    
                     
                     
                   
                  <div class="col-xs-6 col-sm-4 col-md-4">
               
-            <img class="img-responsive" src="images/UCSD/wireframe/photos___videos.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/photos___videos.png"><img class="img-responsive" src="images/UCSD/wireframe/photos___videos.png"></a>
                     </div>
                   
                  <div class="col-xs-6 col-sm-4 col-md-4">
                     
-             <img class="img-responsive" src="images/UCSD/wireframe/roster.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/roster.png"><img class="img-responsive" src="images/UCSD/wireframe/roster.png"></a>
                 </div>
                     
                     
                     
              <div class="col-xs-6 col-sm-4 col-md-4">
               
-            <img class="img-responsive" src="images/UCSD/wireframe/tryouts.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/tryouts.png"><img class="img-responsive" src="images/UCSD/wireframe/tryouts.png"></a>
                     </div>
                   
                  <div class="col-xs-6 col-sm-4 col-md-4">
                     
-             <img class="img-responsive" src="images/UCSD/wireframe/schedule.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/schedule.png"><img class="img-responsive" src="images/UCSD/wireframe/schedule.png"></a>
                 </div>
                     
                     
@@ -371,7 +416,7 @@ Below are some of the sites we went through and things we really liked and wante
                     
              <div class="col-xs-6 col-sm-4 col-md-4">
               
-            <img class="img-responsive" src="images/UCSD/wireframe/results.png">
+            <a class="wireImg" rel="group1" href="images/UCSD/wireframe/results.png"><img class="img-responsive" src="images/UCSD/wireframe/results.png"></a>
                     </div>
                   
           
@@ -416,13 +461,13 @@ Below are some of the sites we went through and things we really liked and wante
             
                   
                 <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/Home.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/Home.jpg"><img class="img-responsive" src="images/UCSD/Home.jpg"></a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/contact.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/contact.jpg"><img class="img-responsive" src="images/UCSD/contact.jpg"></a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/tryouts.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/tryouts.jpg"><img class="img-responsive" src="images/UCSD/tryouts.jpg"></a>
                     </div>
                   
      
@@ -437,13 +482,13 @@ Below are some of the sites we went through and things we really liked and wante
             
                   
                 <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/Schedule.png">
+            <a class="prodImg" rel="group1" href="images/UCSD/Schedule.png"><img class="img-responsive" src="images/UCSD/Schedule.png"></a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/Photos&Vids.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/Photos&Vids.jpg"><img class="img-responsive" src="images/UCSD/Photos&Vids.jpg"></a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/results.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/results.jpg"><img class="img-responsive" src="images/UCSD/results.jpg"></a>
                     </div>
                   
      
@@ -456,13 +501,13 @@ Below are some of the sites we went through and things we really liked and wante
             
                   
                 <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/Directions.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/Directions.jpg"><img class="img-responsive" src="images/UCSD/Directions.jpg"></a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/roster.jpg">
+            <a class="prodImg" rel="group1" href="images/UCSD/roster.jpg"><img class="img-responsive" src="images/UCSD/roster.jpg"></a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
-            <img class="img-responsive" src="images/UCSD/About.png">
+            <a class="prodImg" rel="group1" href="images/UCSD/About.png"><img class="img-responsive" src="images/UCSD/About.png"></a>
                     </div>
                   
      

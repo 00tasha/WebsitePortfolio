@@ -202,6 +202,8 @@ li span{
     padding: 20px;
     font-family: 'Didact',  sans-serif;
     color: #F0C986;
+    align-content: center;
+    text-align: center;
 }
 
 
@@ -510,6 +512,7 @@ color:#BDBEC0;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 55px; 
     padding-top: 40px;
+    text-align: center;
 }
 
 .heading h2{

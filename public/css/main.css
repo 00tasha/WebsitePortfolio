@@ -8,10 +8,23 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', sans-serif; 
     background: rgba(0,0,0,0);
+    font-size: 18px;
+    
+}
+
+a {
+    
+    color: #F0C986;
+    font-size: 30px;
+}
+
+a:hover {
+ color: #BDBEC0 ;   
 }
 
 ul {
- font-family: 'Josefin Sans', sans-serif;   
+ font-family: 'Josefin Sans', sans-serif;  
+
 }
 
 li {
@@ -427,7 +440,7 @@ section.success{
     padding-right: 15px;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 30px;
-     font-size: 18px;
+     font-size: 20px;
 }
 
 .about-page .profile-image {
@@ -482,7 +495,7 @@ section.success{
 }
 
 .about-pro p {
-  font-size: 18px;
+  font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
     text-align:justify;
 }
@@ -694,6 +707,7 @@ section.success{
     
     .about-text {
         margin-top: 40px;
+        text-align: justify;
     }
 }
 
@@ -709,7 +723,7 @@ section.success{
     }
     
     .about-pro p{
-        padding-left:30px;
+/*        padding-left:30px;*/
     }
     
     .redesign-p {

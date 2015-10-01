@@ -45,6 +45,10 @@ router.get('/project4', function(req, res, next) {
   res.render('project4', { title: 'Express' });
 });
 
+router.get('/projecttest', function(req, res, next) {
+  res.render('projecttest', { title: 'Express' });
+});
+
 
 
 module.exports = router;

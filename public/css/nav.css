@@ -28,7 +28,7 @@
 }
 
 .navbar-custom {
-    background-color: #fff;
+    background-color: #f6f6f6;
 }
 
 .navbar .navbar-brand {
@@ -81,7 +81,8 @@
     }
     
     .navbar {
-        padding-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .navbar-nav {

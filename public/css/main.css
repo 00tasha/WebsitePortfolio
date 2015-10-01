@@ -38,11 +38,7 @@ li span{
 .footer {
     text-align:center;
     margin-top:10px;
-    padding:10px;
-}
-
-.pad-top {
-    padding:5px;
+    padding:10px 0px 10px 0px;
 }
 
 .intro-text {
@@ -142,7 +138,7 @@ li span{
 }
 
 .heading {
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     font-family: 'Didact',  sans-serif;
     color: #F0C986;
     align-content: center;
@@ -176,45 +172,9 @@ li span{
     width: 100%;    
 }
 
-header {
-    text-align: center;
-    color: #fff;
-    background: #18bc9c;
-    position: fixed;
-    width:100%;
-    z-index: 1;
-    height: 88%;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-}
-
-header .container {
-    padding-top: 150px;
-    padding-bottom: 50px;
-}
-
-header img {
-    display: block;
-    margin: 0 auto 20px;
-}
-
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
-
 section {
     padding: 100px 0;    
-    width: 100%;
+    /*width: 100%;*/
 }
 
 section h2 {
@@ -270,7 +230,7 @@ hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff;
 }
-
+/*
 section.primary h2{    
     color: #2c3e50;
 }
@@ -279,7 +239,7 @@ section.success{
     background-color: #18bc9c;
     color: #fff;
 }
-
+*/
 .icon-bar {
     background-color:#888;
     color:#000;
@@ -289,16 +249,17 @@ section.success{
 
 .heading h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 55px; 
+    font-size: 35px;
+    color: #F0C986;
     padding-top: 40px;
     text-align: center;
 }
 
 .heading h2 {
-         font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px; 
     padding-top: 10px;
-    color: #BDBEC0 
+    color: #BDBEC0;
 }
 
 .marginMore {
@@ -316,26 +277,24 @@ section.success{
     padding-right: 30px; 
 }
 
-.projects .img-responsive {
-    
+.projects .img-responsive {   
     width: 100%;
     height: 100%;
-    
     position: center;
     object-position: center;
 }
-
-.projects .col-xs-12, .col-sm-6, .col-md-6 {
-    padding-right: 0px; !important!
-    padding-left: 0px; !important!  
+/*
+.projects .col-sm-12, .col-sm-6, .col-md-6 {
+    padding-right: 0px;
+    padding-left: 0px; 
 }
 
-.projects .col-xs-12, .col-sm-6, .col-md-6 {
+.projects .col-sm-12, .col-sm-6, .col-md-6 {
     padding-left: 0px;
-}
+}*/
 
 .pro-image {
- margin: 0px; 
+    margin: 0px; 
 }
 
 .caption {
@@ -436,7 +395,7 @@ section.success{
 
 .about-page h4{
    padding-top: 15px;
-    font-size: 55px;
+    font-size: 35px;
     color: #F0C986;    
 }
 
@@ -459,7 +418,7 @@ section.success{
 }
 
 .about-page .img-responsive {
-    margin-right: 0px; !important!
+    margin-right: 0px;
     align-content: center;
     display: block;
     margin-left: auto;
@@ -485,31 +444,46 @@ section.success{
     object-position: center;
     align-content: center;
 }
+.bg1 {
+    background-color: #f1eae0;
+}
 
-.about-pro .first-sec{ 
-    margin-top: 50px;
-   align-content: center;
+.bg2 {
+    background-color: #ffffff;
+}
+
+.about-pro {
+    padding: 50px 0px;
+    align-content: center;
     object-position: center;
 }
- 
+
 .about-pro h4 { 
     font-size: 30px;
     font-family: 'Didact',  sans-serif;
     color: #B1DCD2;
     text-align: center;
+    padding-bottom: 20px;
 }
-
-.about-pro .link p{
-    text-align: center;
-}
-
+ 
 .about-pro p {
   font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
     text-align:justify;
 }
 
+.about-pro .link p{
+    text-align: center;
+}
 
+.about-pro .img-responsive {
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .pro1-img .img-responsive {
     margin-right: 0px; !important!
     align-content: center;
@@ -525,6 +499,7 @@ section.success{
     padding-top: 0px; !important!
     padding-bottom: 0px; !important! 
 }
+
 
 /* PROJECT 2 PAGE */
 
@@ -577,10 +552,14 @@ section.success{
    
 .negativeMarginBig {
     margin-left:-72px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .negativeMarginSmall {
     margin-left:-62px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .inVisionFrameBig {
@@ -653,6 +632,39 @@ section.success{
 }
 
 @media screen and (min-width:768px) {
+        
+    .pushRight {
+        order:1;
+    }
+    
+    .pushLeft {
+        order:-1;
+    }
+    
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+ /*   
+    .about-pro .col-md-6 .img-responsive {
+        padding:30px;
+    }
+    .about-pro .col-md-6 p {
+        padding:30px;
+    }*/
+    
+    .heading h1 {
+        font-size: 55px;
+    }
+
+    .heading h2 {
+        font-size: 40px; 
+    }
+    
+    .about-page h4 {
+    font-size: 55px;  
+    }
+    
     hr {
         margin-top:10px;
     }
@@ -735,10 +747,6 @@ section.success{
         text-align: left; !important!
     }
     
-    .about-pro p{
-/*        padding-left:30px;*/
-    }
-    
     .redesign-p {
      margin-top: 35%   
     }
@@ -765,6 +773,6 @@ section.success{
     
 @media screen and (min-width:1170px) {
      .about-pro p {
-        padding-left:0px;
+    /*    padding-left:0px; */
     }
 }

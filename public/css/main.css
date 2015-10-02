@@ -284,12 +284,12 @@ section.success{
     object-position: center;
 }
 
-.projects .col-xs-12, .col-sm-6, .col-md-6 {
+.projects .col-xs-12, .projects .col-sm-6, .projects .col-md-6 {
     padding-right: 0px;
     padding-left: 0px; 
 }
 
-.projects .col-xs-12, .col-sm-6, .col-md-6 {
+.projects .col-xs-12, .projects .col-sm-6, .projects .col-md-6 {
     padding-left: 0px;
 }
 
@@ -798,7 +798,7 @@ section.success{
     }
 }
     
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1200   px) {
      .about-pro p {
     /*    padding-left:0px; */
     }

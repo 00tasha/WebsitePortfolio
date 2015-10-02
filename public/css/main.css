@@ -283,15 +283,15 @@ section.success{
     position: center;
     object-position: center;
 }
-/*
-.projects .col-sm-12, .col-sm-6, .col-md-6 {
+
+.projects .col-xs-12, .col-sm-6, .col-md-6 {
     padding-right: 0px;
     padding-left: 0px; 
 }
 
-.projects .col-sm-12, .col-sm-6, .col-md-6 {
+.projects .col-xs-12, .col-sm-6, .col-md-6 {
     padding-left: 0px;
-}*/
+}
 
 .pro-image {
     margin: 0px; 
@@ -317,7 +317,12 @@ section.success{
 }
 
 .caption h4 {
-    font-size: 32px;   
+    font-size: 28px;   
+}
+
+
+.caption p {
+    font-size: 25px;   
 }
 
 .thumbnail {
@@ -608,10 +613,7 @@ section.success{
     .inVisionFrameSmall {
         width:378px;
     }
-    
-    .thumbnail .caption {
-    padding: 20% 10px 20% 10px; !important!
-    }
+
 }
   
 @media screen and (min-width:414px) {
@@ -628,6 +630,14 @@ section.success{
      
     .inVisionFrameSmall {
         width:396px;
+    }
+    
+    .caption h4 {
+        font-size: 32px;   
+    }
+    
+    .caption p {
+        font-size: 30px;
     }
 }
 
@@ -730,13 +740,30 @@ section.success{
         margin-top: 40px;
         text-align: justify;
     }
+        
+    .caption h4 {
+        font-size: 48px;   
+    }
+    
+    .caption p {
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width:992px) {
     .marginMore {
-        margin-left: 160px;
-        margin-right: 160px;
+        margin-left: 120px;
+        margin-right: 120px;
     }
+        
+    .caption h4 {
+        font-size: 32px;   
+    }
+    
+    .caption p {
+        font-size: 30px;
+    }
+    
     .about-pro .link p{
        /* text-align: left;
         padding-right: 20%; */ 
@@ -771,7 +798,7 @@ section.success{
     }
 }
     
-@media screen and (min-width:1170px) {
+@media screen and (min-width:1200px) {
      .about-pro p {
     /*    padding-left:0px; */
     }

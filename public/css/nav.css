@@ -28,7 +28,7 @@
 }
 
 .navbar-custom {
-    background-color: #f6f6f6;
+    background-color: #ffffff;
 }
 
 .navbar .navbar-brand {
@@ -99,6 +99,12 @@
       .navbar .navbar-brand {
         display: none;
     }
+            
+    .top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #f6f6f6;
+    }  
 }
 
 @media screen and (min-width:1024px) {

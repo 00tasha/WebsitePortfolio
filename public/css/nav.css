@@ -53,6 +53,10 @@
     display:none;
 }
 
+.logo-linkCollapse {
+    display:none;
+}
+
 .logo {
     size: 0;
     visibility: hidden;
@@ -73,7 +77,18 @@
 @media screen and (min-width:768px) {
     .logo-link {
         display: inherit;
-   }
+    }
+      
+    .hide-logo-link {
+        display: none;
+    }
+    
+    .show-logo-link-collapse {
+        margin-left: 55px;
+        margin-right: 55px;
+        display: inherit;
+    }
+   
    .logo {
         size: auto;
         visibility: visible;

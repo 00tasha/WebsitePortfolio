@@ -114,6 +114,17 @@
       .navbar .navbar-brand {
         display: none;
     }
+    .navbar-custom {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out,  margin .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out,  margin .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out, margin .5s ease-in-out;
+    }
+         
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
             
     .top-nav-collapse {
         padding: 0;

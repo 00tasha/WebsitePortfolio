@@ -4,12 +4,10 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 100) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $(".logo-linkCollapse").addClass("show-logo-link-collapse");
-        $(".logo-link").addClass("hide-logo-link");
+        $(".logo").addClass("logo-shrink");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".logo-linkCollapse").removeClass("show-logo-link-collapse");
-        $(".logo-link").removeClass("hide-logo-link");
+        $(".logo").removeClass("logo-shrink");
 
     }
 });

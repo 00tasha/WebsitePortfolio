@@ -8,10 +8,23 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', sans-serif; 
     background: rgba(0,0,0,0);
+    font-size: 18px;
+    
+}
+
+a {
+    
+    color: #F0C986;
+    font-size: 30px;
+}
+
+a:hover {
+ color: #BDBEC0 ;   
 }
 
 ul {
- font-family: 'Josefin Sans', sans-serif;   
+ font-family: 'Josefin Sans', sans-serif;  
+
 }
 
 li {
@@ -127,6 +140,7 @@ li span{
 .heading {
     padding: 20px 20px 40px 20px;
     font-family: 'Didact',  sans-serif;
+    color: #F0C986;
     align-content: center;
     text-align: center;
 }
@@ -394,7 +408,7 @@ section.success{
     padding-right: 15px;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 30px;
-     font-size: 18px;
+     font-size: 20px;
 }
 
 .about-page .profile-image {
@@ -413,6 +427,23 @@ section.success{
 
 /* PROJECT 1 PAGE */
 
+.project1{
+ padding-top: 0px;   
+}
+
+.project1 .container {
+ width: 80%;  
+}
+
+.about-pro hr {  
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.about-pro .row{
+    object-position: center;
+    align-content: center;
+}
 .bg1 {
     background-color: #f1eae0;
 }
@@ -436,7 +467,7 @@ section.success{
 }
  
 .about-pro p {
-  font-size: 20px;
+  font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
     text-align:justify;
 }
@@ -453,6 +484,22 @@ section.success{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.pro1-img .img-responsive {
+    margin-right: 0px; !important!
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.prototype .img-responsive {
+    padding-right: 0px; !important!
+    padding-left: 0px; !important!
+    padding-top: 0px; !important!
+    padding-bottom: 0px; !important! 
+}
+
 
 /* PROJECT 2 PAGE */
 
@@ -677,6 +724,7 @@ section.success{
     
     .about-text {
         margin-top: 40px;
+        text-align: justify;
     }
 }
 

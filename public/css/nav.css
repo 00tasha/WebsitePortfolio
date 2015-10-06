@@ -53,10 +53,6 @@
     display:none;
 }
 
-.logo-linkCollapse {
-    display:none;
-}
-
 .logo {
     size: 0;
     visibility: hidden;
@@ -78,22 +74,26 @@
     .logo-link {
         display: inherit;
     }
-      
-    .hide-logo-link {
-        display: none;
+
+   .logo {
+        height:70px;
+        visibility: visible;
+        display: inherit;
+        -webkit-transition: height .5s ease-in-out, margin .5s ease-in-out;
+        -moz-transition: height .5s ease-in-out, margin .5s ease-in-out;
+        transition: height .5s ease-in-out, margin .5s ease-in-out;
     }
     
-    .show-logo-link-collapse {
+    .logo-shrink {
+        height:47px;
         margin-left: 55px;
         margin-right: 55px;
         display: inherit;
+        -webkit-transition: height .5s ease-in-out, margin .5s ease-in-out;
+        -moz-transition: height .5s ease-in-out, margin .5s ease-in-out;
+        transition: height .5s ease-in-out, margin .5s ease-in-out;
     }
-   
-   .logo {
-        size: auto;
-        visibility: visible;
-        display: inherit;
-    }
+
     
     .navbar {
         padding-top: 10px;
@@ -120,11 +120,11 @@
         transition: background .5s ease-in-out,padding .5s ease-in-out, margin .5s ease-in-out;
     }
          
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
+    .navbar-custom .nav li a {
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+    }
             
     .top-nav-collapse {
         padding: 0;

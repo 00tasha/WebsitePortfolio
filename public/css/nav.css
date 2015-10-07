@@ -29,6 +29,7 @@
 
 .navbar-custom {
     background-color: #ffffff;
+    border-bottom: 1px solid rgba(192,192,192,.3);
 }
 
 .navbar .navbar-brand {
@@ -115,6 +116,7 @@
         display: none;
     }
     .navbar-custom {
+        border-bottom: 0px;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out,  margin .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out,  margin .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out, margin .5s ease-in-out;
@@ -128,7 +130,7 @@
             
     .top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(128,128,128,.3);
+        border-bottom: 1px solid rgba(192,192,192,.3);
         background: #f6f6f6;
     }  
 }

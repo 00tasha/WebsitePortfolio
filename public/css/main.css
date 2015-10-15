@@ -223,6 +223,20 @@ header h2 {
 
 .resume {
     margin-bottom: 50px;
+<<<<<<< HEAD
+=======
+    /*margin-top: 90px;
+    padding-top: 20px;*/
+    border-bottom-color: #BDBEC0;
+    border: 3px;
+    outline: 3px solid #BDBEC0;
+    
+}
+
+.resume .img-responsive {
+    
+    padding-top: 7.5px;
+>>>>>>> origin/master
 }
 
 /* ABOUT PAGE */
@@ -253,7 +267,7 @@ header h2 {
 .about-page .profile-image {
     object-position: center;
     /*height: 100px;*/
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .about-page .img-responsive {
@@ -572,6 +586,27 @@ header h2 {
     .about-pro h4{
         text-align: left; !important!
     }
+<<<<<<< HEAD
+=======
+    
+    .redesign-p {
+     margin-top: 35%   
+    }
+    
+    .redesign-p p {
+        padding-left:0px;
+        padding-right:30px;
+    }
+
+    .intro-text {
+        padding-top: 20px;
+        margin-top: -15%;
+    }
+    
+    .profile-image {
+     padding-top: 30px;   
+    }
+>>>>>>> origin/master
 }
 
 @media screen and (min-width:1024px) {
@@ -584,5 +619,19 @@ header h2 {
 }
     
 @media screen and (min-width:1200px) {
+<<<<<<< HEAD
 
+=======
+     .about-pro p {
+    /*    padding-left:0px; */
+    }
+    
+    .about-text {
+     margin-top: 55px;   
+    }
+    
+    .profile-image{
+     padding-top: 0px;   
+    }
+>>>>>>> origin/master
 }

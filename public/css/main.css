@@ -389,6 +389,15 @@ section.success{
     margin-bottom: 50px;
     /*margin-top: 90px;
     padding-top: 20px;*/
+    border-bottom-color: #BDBEC0;
+    border: 3px;
+    outline: 3px solid #BDBEC0;
+    
+}
+
+.resume .img-responsive {
+    
+    padding-top: 7.5px;
 }
 
 /* ABOUT PAGE */
@@ -419,7 +428,7 @@ section.success{
 .about-page .profile-image {
     object-position: center;
     /*height: 100px;*/
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .about-page .img-responsive {
@@ -787,6 +796,10 @@ section.success{
         padding-top: 20px;
         margin-top: -15%;
     }
+    
+    .profile-image {
+     padding-top: 30px;   
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -798,8 +811,16 @@ section.success{
     }
 }
     
-@media screen and (min-width:1200   px) {
+@media screen and (min-width:1200px) {
      .about-pro p {
     /*    padding-left:0px; */
+    }
+    
+    .about-text {
+     margin-top: 55px;   
+    }
+    
+    .profile-image{
+     padding-top: 0px;   
     }
 }

@@ -2,32 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<% var navIndex="true" %>
 
 <% include header %>
 
-<body id="page-top" class="/index" data-spy="scroll" data-target=".navbar-fixed-top">
 
+<body id="page-top" class="/index" data-spy="scroll" data-target=".navbar-fixed-top">
+<link rel="stylesheet" href="css/navIndex.css"/>
  <% include nav %>
  
     <!-- Intro Secton -->
     <section class="intro">
     
-        <div class="intro-body">
+        <div class="container intro-body">
     
-            <div class="container desktop">
             
-                    <div class="col-md-12">
-                        <div class="homeText">
+              <!-- <div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6"> -->
+               <div class="col-sm-12 col-md-12 col-lg-12">
+                   <div class="homeText">
                         <p class="intro-text">Check out my Latest work</p>
                         <div class="row">
-                        <a class="ghost-button"  href="/projects">PROJECTS</a>
+                         <a href="#projects" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                         </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
+                  </div>
+              </div>
+        </div>
     </section>
-
+    
+<% include projects-sect %>
 
 <% include footer %>
 

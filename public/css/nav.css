@@ -1,7 +1,7 @@
 /* NAV BAR */
 
 .navbar a {
-    color: #5a5a5a;
+    color: #000000;
     font-size: 11px;
     font-weight: bold;
     padding: 7px;
@@ -28,7 +28,7 @@
 }
 
 .navbar-custom {
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,1);
     border-bottom: 1px solid rgba(192,192,192,.3);
 }
 
@@ -58,6 +58,11 @@
     size: 0;
     visibility: hidden;
     display: none;
+}
+
+.icon-bar {
+    background-color:#888;
+    color:#000;
 }
 
 /* END NAV BAR */
@@ -131,7 +136,7 @@
     .top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(192,192,192,.3);
-        background: #f6f6f6;
+        background-color: #f6f6f6;
     }  
 }
 

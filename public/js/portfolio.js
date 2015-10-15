@@ -28,3 +28,62 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+ $(document).ready(function() {
+
+	
+	$("a.bioImg").fancybox({ 
+		'padding'		:	0,
+		'title'			:	'',
+		'openEasing'      :	'swing',
+		'closeEasing'    :	'swing',
+		'openEffect'	:	'elastic',
+		'closeEffect'	:	'elastic',
+		'openSpeed'		:	600, 
+		'closeSpeed'	:	200, 
+		'overlayShow'	:	false
+	});
+	
+	$("a.sketchImg").fancybox({
+		'padding'		:	0,
+		'openEasing'      :	'swing',
+		'closeEasing'    :	'swing',
+		'openEffect'	:	'elastic',
+		'closeEffect'	:	'elastic',
+		'openSpeed'		:	600, 
+		'closeSpeed'	:	200, 
+		'overlayShow'	:	false
+	});
+
+	$("a.compImg").fancybox({
+		'padding'		:	0,
+		'openEasing'      :	'swing',
+		'closeEasing'    :	'swing',
+		'openEffect'	:	'elastic',
+		'closeEffect'	:	'elastic',
+		'openSpeed'		:	600, 
+		'closeSpeed'	:	200, 
+		'overlayShow'	:	false
+	});
+	
+	$("a.wireImg").fancybox({
+		'padding'		:	0,
+		'openEasing'      :	'swing',
+		'closeEasing'    :	'swing',
+		'openEffect'	:	'elastic',
+		'closeEffect'	:	'elastic',
+		'openSpeed'		:	600, 
+		'closeSpeed'	:	200, 
+		'overlayShow'	:	false
+	});
+
+	$("a.prodImg").fancybox({
+		'padding'		:	0,
+		'openEasing'      :	'swing',
+		'closeEasing'    :	'swing',
+		'openEffect'	:	'elastic',
+		'closeEffect'	:	'elastic',
+		'openSpeed'		:	600, 
+		'closeSpeed'	:	200, 
+		'overlayShow'	:	false
+	});	
+});

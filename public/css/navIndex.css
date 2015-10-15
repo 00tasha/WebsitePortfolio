@@ -1,0 +1,21 @@
+/* NAV BAR */
+
+@media screen and (min-width:768px) {            
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar-custom {
+    background-color: rgba(0,0,0,0);
+}
+
+.top-nav-collapse {
+    background-color: #f6f6f6;
+}
+
+.top-nav-collapse a {
+color: #000000;
+}
+
+}
+

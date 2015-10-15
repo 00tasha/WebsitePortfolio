@@ -99,11 +99,17 @@ hr.star-primary:after {
 
 .bg1 {
     /*background-color: #f1eae0;*/
-    background-color: #f8f8f8;
+    background-color: #ffffff;
+    border-bottom-color: #BDBEC0;
+    border-bottom: 1px solid;
+
 }
 
 .bg2 {
     background-color: #ffffff;
+    border-bottom-color: #BDBEC0;
+    border-bottom: 1px solid;
+
 }
 
 .intro-text {
@@ -158,6 +164,7 @@ header h2 {
     font-size: 25px; 
     padding-top: 10px;
     color: #BDBEC0;
+    text-align: justify;
 }
 
 /* PROJECTS PAGE */

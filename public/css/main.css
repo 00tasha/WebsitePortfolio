@@ -586,8 +586,6 @@ header h2 {
     .about-pro h4{
         text-align: left; !important!
     }
-<<<<<<< HEAD
-=======
     
     .redesign-p {
      margin-top: 35%   
@@ -606,7 +604,7 @@ header h2 {
     .profile-image {
      padding-top: 30px;   
     }
->>>>>>> origin/master
+
 }
 
 @media screen and (min-width:1024px) {
@@ -619,9 +617,7 @@ header h2 {
 }
     
 @media screen and (min-width:1200px) {
-<<<<<<< HEAD
 
-=======
      .about-pro p {
     /*    padding-left:0px; */
     }
@@ -633,5 +629,5 @@ header h2 {
     .profile-image{
      padding-top: 0px;   
     }
->>>>>>> origin/master
+
 }

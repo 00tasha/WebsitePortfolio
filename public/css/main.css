@@ -148,6 +148,10 @@ header {
     text-align: center;
 }
 
+header.short {
+    padding-bottom:0px;
+}
+
 header h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
@@ -227,8 +231,6 @@ text-align:justify;
 
 .resume {
     margin-bottom: 50px;
-<<<<<<< HEAD
-=======
     /*margin-top: 90px;
     padding-top: 20px;*/
     border-bottom-color: #BDBEC0;
@@ -238,9 +240,22 @@ text-align:justify;
 }
 
 .resume .img-responsive {
-    
     padding-top: 7.5px;
->>>>>>> origin/master
+}
+
+/* CONTACT PAGE */
+.box-1 {
+    align-content: center;
+    background-color: #F0C986;
+    margin:0px 35px 50px 35px;
+    padding:15px;
+}
+
+.box-2 {
+    align-content: center;
+    background-color: #B1DCD2;
+    margin:0px 35px 50px 35px;
+    padding:15px;
 }
 
 /* ABOUT PAGE */
@@ -296,7 +311,7 @@ text-align:justify;
 
 
 .about-pro {
-    padding: 50px 0px;
+    padding: 20px 0px;
     align-content: center;
     object-position: center;
 }
@@ -425,6 +440,21 @@ text-align:justify;
 }
 
 @media screen and (min-width:768px) {
+    
+.about-pro {
+    padding: 50px 0px;
+}
+    
+    /* CONTACT PAGE */
+.box-1 {
+    margin:0px 25px 70px 25px;
+    padding:15px;
+}
+
+.box-2 {
+    margin:0px 25px 70px 25px;
+    padding:15px;
+}
     
     .negativeMarginSmall {
         margin-left:25%;

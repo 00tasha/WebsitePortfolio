@@ -28,7 +28,7 @@
 }
 
 .navbar-custom {
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0);
     border-bottom: 1px solid rgba(192,192,192,.3);
 }
 
@@ -50,15 +50,11 @@
     outline: 0;
 }
 
-.logo-link {
-    display:none;
-}
-
-.logo {
-    size: 0;
-    visibility: hidden;
-    display: none;
-}
+.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(192,192,192,.3);
+    background-color: #f6f6f6;
+    }
 
 .icon-bar {
     background-color:#888;
@@ -90,7 +86,7 @@
         transition: height .5s ease-in-out, margin .5s ease-in-out;
     }
     
-    .logo-shrink {
+    .logo-collapse {
         height:47px;
         margin-left: 55px;
         margin-right: 55px;

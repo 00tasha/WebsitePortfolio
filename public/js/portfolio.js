@@ -4,11 +4,10 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 100) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $(".logo").addClass("logo-shrink");
+        $(".logo").addClass("logo-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".logo").removeClass("logo-shrink");
-
+        $(".logo").removeClass("logo-collapse");
     }
 });
 

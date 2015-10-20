@@ -5,9 +5,11 @@ $(window).scroll(function() {
     if ($(".navbar").offset().top > 100) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".logo").addClass("logo-collapse");
+        $("#logo-image").attr("src","images/LogoName.png")
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
         $(".logo").removeClass("logo-collapse");
+        $("#logo-image").attr("src","images/LogoNameWhite.png")
     }
 });
 

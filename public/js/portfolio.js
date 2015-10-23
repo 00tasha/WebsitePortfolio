@@ -15,8 +15,8 @@ $(window).scroll(function() {
         $(".logo").removeClass("logo-collapse");
         if ($("body").attr("class")=="indexPage") {
             $(".icon-bar-white").removeClass("icon-bar");
-            $("#logo-image").attr("src","images/LogoNameWhite.png")
-            $("#small-logo-image").attr("src","images/smallLogoWhite.png")
+            $("#logo-image").attr("src","images/LogoNameWhite.png");
+            $("#small-logo-image").attr("src","images/smallLogoWhite.png");
         }
     }
 });
@@ -41,6 +41,8 @@ $('.navbar-collapse ul li a').click(function() {
     
     if ($("body").attr("class")=="indexPage") {
         $("#logo-image").attr("src", "images/LogoNameWhite.png");
+        $("#small-logo-image").attr("src","images/smallLogoWhite.png");
+
     }
 
 	

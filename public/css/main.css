@@ -236,10 +236,11 @@ header h1 {
 
 header h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px; 
+    font-size: 16px; 
     padding-top: 10px;
     color: #707070;
-text-align:justify;
+    text-align: left;
+    
 }
 
 /* PROJECTS PAGE */

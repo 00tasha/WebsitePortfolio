@@ -29,7 +29,7 @@ li {
 }
 
 li span{
-    color: #000;
+    color: #595959;
 }
 
 section {
@@ -93,30 +93,48 @@ hr.star-primary:after {
 
 .footer {
     text-align:center;
-    margin-top:10px;
+    margin-top:0px;
     padding:10px 0px;
+    background-color: #ffd699;
 }
 
 .bg1 {
     /*background-color: #f1eae0;*/
-    background-color: #b1e5e4;
-    color: #707070;
-    /*border-bottom-color: #BDBEC0;
-    border-bottom: 1px solid;*/
+    /* background-color: #b1e5e4;*/
+    background-color: #CAEDED;
+    color: #595959;
+    border-bottom-color: #b1e5e4;
+    border-bottom: 2px solid;
+    border-color: #b1e5e4;
 }
 
 .bg2 {
-    background-color: #ffd699;
-    color: #707070;
-    /*border-bottom-color: #BDBEC0;
-    border-bottom: 1px solid;*/
+    /*background-color: #ffd699; */
+    background-color: #FFFFFF;
+    color: #595959;
+    border-bottom-color: #ffd699;
+    border-bottom: 2px solid;
+    border-color: #b1e5e4;
 }
 
 .bg3 {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #707070;
-    /*border-bottom-color: #BDBEC0;
-    border-bottom: 1px solid;*/
+    border-bottom-color: #b1e5e4;
+    border-bottom: 2px solid;
+    border-color: #b1e5e4;
+    
+}
+
+
+
+.bg4 {
+    background-color: #FFFFFF;
+    color: #707070;
+    border-bottom-color: #ffd699;
+    border-bottom: 2px solid;
+    border-color: #ffd699;
+    
 }
 
 .intro-text {
@@ -225,6 +243,10 @@ text-align:justify;
 }
 
 /* PROJECTS PAGE */
+#projects h2 {
+    text-align: center;
+}
+
 .marginMore {
 }
 
@@ -309,7 +331,7 @@ text-align:justify;
 
 .box-2 {
     align-content: center;
-    background-color: #B1DCD2;
+    background-color: #CAEDED;
     margin:0px 35px 50px 35px;
     padding:15px;
 }

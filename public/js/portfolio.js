@@ -8,7 +8,7 @@ $(window).scroll(function() {
         if ($("body").attr("class")=="indexPage") {
             $(".icon-bar-white").addClass("icon-bar");
             $("#logo-image").attr("src","images/LogoName.png")
-            $("#small-logo-image").attr("src","images/SmallLogoName.png")
+            $("#small-logo-image").attr("src","images/smallLogoName.png")
         }
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");

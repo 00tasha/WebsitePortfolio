@@ -98,6 +98,23 @@ hr.star-primary:after {
     background-color: #ffd699;
 }
 
+
+
+.btn-1 .btn-primary {
+    background-color: #fff !important;
+    border-color: #fff;
+    border-width: 3px;
+    color: black;
+}
+
+.btn-2 .btn-primary {
+    background-color: #b1e5e4 !important;
+    border-color: #b1e5e4;
+    border-width: 3px;
+    color: black;
+}
+
+
 .bg1 {
     /*background-color: #f1eae0;*/
     /* background-color: #b1e5e4;*/

@@ -45,6 +45,14 @@ router.get('/project4', function(req, res, next) {
   res.render('project4', { title: 'Express' });
 });
 
+router.get('/project5', function(req, res, next) {
+  res.render('project5', { title: 'Express' });
+});
+
+router.get('/project6', function(req, res, next) {
+  res.render('project6', { title: 'Express' });
+});
+
 router.get('/projecttest', function(req, res, next) {
   res.render('projecttest', { title: 'Express' });
 });

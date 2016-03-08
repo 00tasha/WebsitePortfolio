@@ -53,6 +53,10 @@ router.get('/project6', function(req, res, next) {
   res.render('project6', { title: 'Express' });
 });
 
+router.get('/project7', function(req, res, next) {
+  res.render('project7', { title: 'Express' });
+});
+
 router.get('/projecttest', function(req, res, next) {
   res.render('projecttest', { title: 'Express' });
 });

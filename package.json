@@ -1,5 +1,5 @@
 {
-  "name": "WebsitePortfolioExpress",
+  "name": "websiteportfolioexpress",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,18 @@
     "express": "~4.13.1",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "Natasha's Portfolio",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00tasha/WebsitePortfolio.git"
+  },
+  "author": "Natasha Springer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/00tasha/WebsitePortfolio/issues"
+  },
+  "homepage": "https://github.com/00tasha/WebsitePortfolio#readme"
 }

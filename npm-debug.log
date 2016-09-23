@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /Users/Natasha/Desktop/WebsitePortfolio/package.json
+5 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/body-parser/package.json
+6 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/cookie-parser/package.json
+7 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/debug/package.json
+8 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/ejs/package.json
+9 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/morgan/package.json
+11 verbose installManyTop reading scoped package data from /Users/Natasha/Desktop/WebsitePortfolio/node_modules/serve-favicon/package.json
+12 verbose readDependencies loading dependencies from /Users/Natasha/Desktop/WebsitePortfolio/package.json
+13 verbose install express is installed as 4.13.3
+14 silly cache add args [ 'express@~4.13.1', null ]
+15 verbose cache add spec express@~4.13.1
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'express@~4.13.1',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'express',
+16 silly cache add   rawSpec: '~4.13.1',
+16 silly cache add   spec: '>=4.13.1 <4.14.0',
+16 silly cache add   type: 'range' }
+17 silly addNamed express@>=4.13.1 <4.14.0
+18 verbose addNamed ">=4.13.1 <4.14.0" is a valid semver range for express
+19 silly addNameRange { name: 'express', range: '>=4.13.1 <4.14.0', hasData: false }
+20 silly mapToRegistry name express
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'express',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'express',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/express
+25 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/express
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 8:15:21 PM
+29 verbose request id 5c6594f65274ef3e
+30 http request GET https://registry.npmjs.org/express
+31 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+32 info attempt registry request try #2 at 8:16:01 PM
+33 http request GET https://registry.npmjs.org/express
+34 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+35 info attempt registry request try #3 at 8:17:32 PM
+36 http request GET https://registry.npmjs.org/express
+37 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+37 verbose stack     at errnoException (dns.js:27:10)
+37 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+38 verbose cwd /Users/Natasha/Desktop/WebsitePortfolio
+39 error Darwin 15.5.0
+40 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express" "--save"
+41 error node v4.5.0
+42 error npm  v2.15.9
+43 error code ENOTFOUND
+44 error errno ENOTFOUND
+45 error syscall getaddrinfo
+46 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+46 error network This is most likely not a problem with npm itself
+46 error network and is related to network connectivity.
+46 error network In most cases you are behind a proxy or have bad network settings.
+46 error network
+46 error network If you are behind a proxy, please make sure that the
+46 error network 'proxy' config is set properly.  See: 'npm help config'
+47 verbose exit [ 1, true ]

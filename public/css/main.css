@@ -9,15 +9,17 @@ body {
     font-family: 'Josefin Sans', sans-serif; 
     background-color: rgba(0,0,0,0);
     font-size: 18px;
+    
+    
 }
 
 a {
-    color: #7070e0;
-    font-size: 30px;
+    color: #b1e5e4;
+    font-size: 20px;
 }
 
 a:hover {
- color: #BDBEC0 ;   
+ color: #ffd699 ;   
 }
 
 ul {
@@ -25,7 +27,7 @@ ul {
 }
 
 li {
- color: #F0C986;   
+ color: #BDBEC0;   
 }
 
 li span{
@@ -96,6 +98,9 @@ hr.star-primary:after {
     margin-top:0px;
     padding:10px 0px;
     background-color: #ffd699;
+    
+    position: relative;
+
 }
 
 
@@ -256,6 +261,15 @@ header h2 {
     font-size: 16px; 
     padding-top: 10px;
     color: #707070;
+    text-align: left;
+    
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 26px; 
+    padding-top: 10px;
+    color: #ffd699;
     text-align: left;
     
 }

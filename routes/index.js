@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
 router.get('/index', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+
 router.get('/index2', function(req, res, next) {
   res.render('index2', { title: 'Express' });
 });

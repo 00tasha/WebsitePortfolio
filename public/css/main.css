@@ -6,7 +6,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Raleway', sans-serif; 
     background-color: rgba(0,0,0,0);
     font-size: 18px;
     
@@ -23,7 +23,7 @@ a:hover {
 }
 
 ul {
- font-family: 'Josefin Sans', sans-serif;  
+ font-family: 'Raleway', sans-serif;  
 }
 
 li {
@@ -52,6 +52,16 @@ hr {
     object-position: center;
     margin-top:5px;
     margin-bottom:10px;
+}
+
+
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 hr.star-light,
@@ -97,9 +107,14 @@ hr.star-primary:after {
     text-align:center;
     margin-top:0px;
     padding:10px 0px;
-    background-color: #ffd699;
+    background-color: #272727;
     
     position: relative;
+
+}
+
+    .footer p {
+   color: #ffffff;
 
 }
 
@@ -139,12 +154,22 @@ hr.star-primary:after {
     border-color: #b1e5e4;
 }
 
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
 .bg3 {
     background-color: #FFFFFF;
     color: #707070;
     border-bottom-color: #b1e5e4;
     border-bottom: 2px solid;
-    border-color: #b1e5e4;
+    border-color: #b1e5e4; 
+    
     
 }
 
@@ -164,7 +189,7 @@ hr.star-primary:after {
     padding-bottom: 15%;
     color: #fff;
     font-size: 48px;  
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-weight: bold;
 }
 
@@ -177,7 +202,7 @@ hr.star-primary:after {
     text-align: center;
     color: #fff;
     background-color: #fff;    
-    background:url('../images/bridgeclosemobile.gif') no-repeat center ;
+    background:url('../images/Coast-Background.jpg') no-repeat center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -249,7 +274,8 @@ header.short {
 }
 
 header h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poiret One', sans-serif;
+    
     font-size: 35px;
     color: #707070;
     padding-top: 40px;
@@ -257,7 +283,7 @@ header h1 {
 }
 
 header h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px; 
     padding-top: 10px;
     color: #707070;
@@ -266,7 +292,7 @@ header h2 {
 }
 
 h3 {
-    font-family: 'Montserrat';
+    font-family: 'Poiret One';
     font-size: 26px; 
     padding-top: 10px;
     color: #ffd699;
@@ -388,7 +414,7 @@ h3 {
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 30px;
      font-size: 20px;
 }
@@ -428,7 +454,7 @@ h3 {
 
 .about-pro h4 { 
     font-size: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Poiret One';
     color: #707070;
     text-align: center;
     padding-bottom: 20px;
@@ -442,7 +468,7 @@ h3 {
 
 .about-pro p {
     font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align:justify;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -634,7 +660,7 @@ h3 {
         height: 100%;
         padding: 0;
         background-color: #FFF;
-        background:url('../images/bridgeclosesmall.gif') no-repeat center ;
+        background:url('../images/Coast-Background.jpg') no-repeat center ;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -642,10 +668,10 @@ h3 {
     }
 
     .intro-text {
-        padding: 0px;
+        padding: 20px;
         color: #ffffff ;
         font-size: 48px;  
-       font-family: 'Josefin Sans', sans-serif; 
+       font-family: 'Poiret One', sans-serif; 
     }
     
     .homeText {

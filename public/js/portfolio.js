@@ -7,16 +7,16 @@ $(window).scroll(function() {
         $(".logo").addClass("logo-collapse");
         if ($("body").attr("class")=="indexPage") {
             $(".icon-bar-white").addClass("icon-bar");
-            $("#logo-image").attr("src","images/LogoName.png")
-            $("#small-logo-image").attr("src","images/smallLogoName.png")
+            $("#logo-image").attr("src","images/FullLogo_17-02.svg")
+            $("#small-logo-image").attr("src","images/FullLogoSmall_17-04.svg")
         }
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
         $(".logo").removeClass("logo-collapse");
         if ($("body").attr("class")=="indexPage") {
             $(".icon-bar-white").removeClass("icon-bar");
-            $("#logo-image").attr("src","images/LogoNameWhite.png");
-            $("#small-logo-image").attr("src","images/smallLogoWhite.png");
+            $("#logo-image").attr("src","images/FullLogoWhite_17-02.svg");
+            $("#small-logo-image").attr("src","images/FullLogoWhiteSmall_17-04.svg");
         }
     }
 });
@@ -40,8 +40,8 @@ $('.navbar-collapse ul li a').click(function() {
  $(document).ready(function() {
     
     if ($("body").attr("class")=="indexPage") {
-        $("#logo-image").attr("src", "images/LogoNameWhite.png");
-        $("#small-logo-image").attr("src","images/smallLogoWhite.png");
+        $("#logo-image").attr("src", "images/FullLogoWhite_17-02.svg");
+        $("#small-logo-image").attr("src","images/FullLogoWhiteSmall_17-04.svg");
 
     }
 

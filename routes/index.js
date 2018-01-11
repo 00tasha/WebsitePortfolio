@@ -70,6 +70,10 @@ router.get('/project10', function(req, res, next) {
   res.render('project10', { title: 'Express' });
 });
 
+router.get('/projectviewall', function(req, res, next) {
+  res.render('projectviewall', { title: 'Express' });
+});
+
 router.get('/projecttest', function(req, res, next) {
   res.render('projecttest', { title: 'Express' });
 });

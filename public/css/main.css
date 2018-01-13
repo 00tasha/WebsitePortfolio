@@ -8,9 +8,12 @@ body {
     height: 100%;
     font-family: 'Quicksand', sans-serif; 
     background-color: rgba(0,0,0,0);
-    font-size: 16px;
+    font-size: 16px; 
     
-    
+}
+
+.project-title {
+    text-align: center;
 }
 
 
@@ -18,7 +21,7 @@ body {
     font-size: 36px;
     font-family: 'Montserrat';
     color: #707070;
-    text-align: center;
+    /*text-align: center;*/
     padding-bottom: 20px;
      padding-top: 20px;
 }
@@ -33,7 +36,7 @@ a:hover {
 }
 
 ul {
- font-family: 'Quicksand-light', sans-serif;  
+ font-family: 'Quicksand', sans-serif;  
 }
 
 li {
@@ -380,11 +383,12 @@ header h1 {
 }
 
 header h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px; 
+    font-family: 'Montserrat-thin', sans-serif;
+    font-size: 22px; 
     padding-top: 10px;
     color: #fff;
     text-align: left;
+    
     
 }
 
@@ -599,7 +603,7 @@ h3 {
     font-size: 30px;
     font-family: 'Montserrat';
     color: #474954;
-    text-align: center;
+    /*text-align: center;*/
     padding-bottom: 20px;
 }
 
@@ -615,7 +619,7 @@ h3 {
     font-size: 26px; 
     padding-top: 10px;
     color: #E3C0D3;
-    text-align: center; !
+    /*text-align: center; !*/
     
 }
 
@@ -798,9 +802,7 @@ h3 {
         font-size: 55px;
     }
 
-    header h2 {
-        font-size: 25px; 
-    }
+   
     
     header h4 {
         font-size: 55px; 

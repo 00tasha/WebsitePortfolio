@@ -607,6 +607,14 @@ h3 {
     padding-bottom: 20px;
 }
 
+.about-pro h5 { 
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #474954;
+    /*text-align: center;*/
+    
+}
+
 .about-pro h2 {
     text-align: center;
     color: #E3C0D3;
